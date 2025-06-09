@@ -20,6 +20,7 @@ pip install -r requirements.txt
 TELEGRAM_TOKEN=your_telegram_token_here
 TELEGRAM_CHANNEL_ID=your_channel_id_here
 CHECK_INTERVAL_MINUTES=30
+NOTIFICATION_INTERVAL_MINUTES=360
 GITHUB_LABEL=easy
 ```
 
@@ -58,7 +59,7 @@ project_root/
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.11+
 - python-telegram-bot
 - python-dotenv
 - aiohttp 
