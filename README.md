@@ -24,11 +24,6 @@ NOTIFICATION_INTERVAL_MINUTES=360
 GITHUB_LABEL=easy
 ```
 
-4. Initialize the database:
-```bash
-python storage/init_db.py
-```
-
 ## Running
 
 ```bash
@@ -46,11 +41,6 @@ project_root/
 │   ├── telegram_bot.py # Telegram messaging
 │   ├── scheduler.py   # Task scheduler
 │   └── database.py    # SQLite database operations
-│
-├── storage/
-│   ├── issues.db      # SQLite database
-│   └── init_db.py     # Database initialization script
-│
 ├── main.py           # Entry point
 ├── .env             # Environment variables
 ├── requirements.txt
