@@ -6,7 +6,7 @@ Telegram bot for monitoring new issues in the CPython repository with a specifie
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/lazorikv/cpython-easy-issues-tg-bot.git
 cd cpython-easy-issues-tg-bot
 ```
 
@@ -33,7 +33,7 @@ python main.py
 ## Project Structure
 
 ```
-project_root/
+cpython-easy-issues-tg-bot/
 │
 ├── bot/
 │   ├── __init__.py
